@@ -1,36 +1,47 @@
 body {
     text-align: center;
+    background-color: yellow;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+img {
+    border-radius: 504;
+    width: 100px
 }
 
 h1 {
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 300;
-}
-#Jk Rowling {
-    width: 100%;
-    height: 800px;
-    background-color: lightcoral;
+    text-shadow: 20px 20px#58BBDO;
+    font-size: 20px;
 }
 
-#William Shakespeare {
-    width: 100%;
-    height: 800px;
-    background-color: lightcoral;
+p {
+    font-size: 18px;
+    color: blue
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: chocolate;
+
 }
 
 
-img {
-    transition: transform .2s;
+.link {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
 }
-
-img:hover {
-    transform: scale(0.9);
-}
-
-.line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
+html{
+scroll-behavior: smooth    
+    
 }
